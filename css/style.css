@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.main-B{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+}
+.flag-B{
+    width: 600px;
+    height: 360px;
+    background-color: green;
+    position: relative;
+}
+.circle-B{
+    height: 240px;
+    width: 240px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.pole-B{
+    height: 310px;
+    width: 10px;
+    background-color: burlywood;
+}
+.base-B{
+    height: 30px;
+    width: 60px;
+    background-color: brown;
+    margin-left: -25px;
+}
+.main-D{
+    width: 680px;
+    height: 560px;
+    margin: 0 auto;
+    margin-top: 30px;
+    position: relative;
+    border: 2px solid black;
+}
+.main-D-lt{
+    height: 225px;
+    width: 225px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.main-D-lb{
+    height: 225px;
+    width: 225px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.main-D-rb{
+    height: 225px;
+    width: 345px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.main-D-rt{
+    height: 225px;
+    width: 345px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.main-J{
+    width: 600px;
+    height: 400px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+}
+.main-J-circle{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background-color: red;
+}
+.main-I{
+    width: 666px;
+    height: 444px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+}
+.main-I-one{
+    width: 666px;
+    height: 148px;
+    background-color: orange;
+}
+.main-I-two{
+    width: 666px;
+    height: 148px;
+    background-color: #fff;
+    position: relative;
+}
+.main-I-two-circle{
+    width: 148px;
+    height: 148px;
+    position: absolute;
+    top: 0;
+    left: 259px;
+}
+.main-I-two-circle img{
+    height: 100%;
+    width: 100%;
+}
+.main-I-three{
+    width: 666px;
+    height: 148px;
+    background-color: green;
+}
+.main-C{
+    width: 680px;
+    height: 340px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+}
+.main-C-one{
+    width: 25%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+.main-C-two{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+    float: left;
+    position: relative;
+}
+.main-C-two-small{
+    height: 226px;
+    width: 226px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.main-C-two-small img{
+    height: 100%;
+    width: 100%;
+}
+.main-C-three{
+    width: 25%;
+    height: 100%;
+    background-color: red;
+    float: left;
+}
+
+.btn{
+    margin: 50px;
+}
+.btn a{
+    font-size: 40px;
+    padding: 20px 20px;
+    position: relative;
+}
+.btn a::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 0;
+    width: 3px;
+    background-color: green;
+    transition: 0.5s;
+}
+.btn a:hover::before{
+    height: 90px;   
+}
+.btn a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0;
+    width: 3px;
+    background-color: red;
+    transition: 0.5s;
+}
+.btn a:hover::after{
+    height: 90px;   
+}
+
+/*.btn a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 3px;
+    width: 0px;
+    background-color: red;
+    transition: 0.5s;
+}
+.btn a::before{
+    content: '';
+    height: 3px;
+    width: 0px;
+    right: 0;
+    bottom: 0;
+    background-color: green;
+    position: absolute;
+    transition: 0.5s;
+}
+.btn a:hover::after{
+    width: 100px;
+}
+.btn a:hover::before{
+    width: 100px;
+}*/
